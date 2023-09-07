@@ -1,8 +1,8 @@
 //  Creating the array containing the player data for each player
-const Movies = [{"title":"Mohamed Salah", "description":"Liverpool", "posterURL":"/Mo.png", "rating":"11"},
-{"title":"Cristiano Ronaldo", "description":"Al-Nassr", "posterURL":"/CR7.png", "rating":"7"},
-{"title":"Karim Benzema", "description":" Al-Ittihad", "posterURL":"/Karim.png", "rating":"9"},
-{"title":"Lionel Messi", "description":"Inter Miami", "posterURL":"/Messi.png", "rating":"10"}]
+const Movies = [{"title":"Jumanji: Welcome to the Jungle", "description":"A dangerous board game", "posterURL":"/Jumanji.jpg", "rating":"6.9"},
+{"title":"Mission Impossible", "description":"A mission that is impossible", "posterURL":"/Mission.jpg", "rating":"8"},
+{"title":"Home Alone 2", "description":"Alone in the home", "posterURL":"/Home.jpg", "rating":"6.8"},
+{"title":"Fast & Furious X", "description":"Street car racing", "posterURL":"/Fast.jpg", "rating":"5.8"}]
 
 //  Exporting the player array
 export default Movies;

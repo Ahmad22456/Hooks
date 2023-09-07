@@ -12,7 +12,7 @@ function MovieCard({title, description, posterURL, rating, add}) {
       <Card.Img variant="top" src={posterURL} />
       <Card.Body>
         <Card.Title>{title}</Card.Title>
-        <Card.Subtitle className="mb-2 text-muted">{rating}</Card.Subtitle>
+        <Card.Subtitle className="mb-2 text-muted">Rating: {rating}</Card.Subtitle>
         <Card.Text>{description}</Card.Text>
         <Button variant="primary" onClick={(e) => {handleClick(e)}}>Add Movie</Button>
       </Card.Body>

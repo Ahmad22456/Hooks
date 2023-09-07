@@ -23,12 +23,14 @@ function Filter({onSearch}) {
     return (
         <>
             <form className="filterBar" onSubmit={handleSubmit}>
-                <label>Name</label>
-                <input placeholder="Enter Title here" onChange={(e) => handleTitleChange(e)} value={title}/>
-
-                <label>Rating</label>
-                <input placeholder="Enter Rating here" onChange={(e) => handleRatingChange(e)} value={rating}/>
-
+                <div className="filterName">
+                    <label style={{color:"white", fontWeight:"bold"}}>Name</label>
+                    <input placeholder="Enter Title here" onChange={(e) => handleTitleChange(e)} value={title}/>
+                </div>
+                <div className="filterRating">
+                    <label style={{color:"white", fontWeight:"bold"}}>Rating</label>
+                    <input placeholder="Enter Rating here" onChange={(e) => handleRatingChange(e)} value={rating}/>
+                </div>
                 <input type="submit" value="Search"/>
             </form>
         </>

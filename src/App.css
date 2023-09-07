@@ -8,6 +8,20 @@ body {
   background-color:	rgb(56,56,56);
 }
 
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .5rem 2rem;
+  background-color: rgb(16,16,16);
+  color: white;
+}
+
+.navText {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
 .App {
   display: flex;
   flex-direction: column;
@@ -46,4 +60,22 @@ body {
   justify-content: center;
   align-items: center;
   gap: 2rem;
+}
+
+.filterName {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+}
+
+.filterRating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+}
+
+hr {
+  color: white;
 }
