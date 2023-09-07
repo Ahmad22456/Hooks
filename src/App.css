@@ -8,7 +8,42 @@ body {
   background-color:	rgb(56,56,56);
 }
 
-/* .App {
+.App {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+}
 
-} */
+.AppText {
+  color: white;
+  font-weight: bold;
+}
 
+.listMovie {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.listFilter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.listAdd {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.filterBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}

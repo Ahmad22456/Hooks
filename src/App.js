@@ -56,6 +56,7 @@ function App() {
   // console.log(moviesAdded)
   return (
     <div className="App">
+      <h1 className="AppText">Movie List:</h1>
       <MovieList select={addMovie}/>
       <Filter onSearch={applyFilter}/>
       <FilterList list={moviesFilter} select={addMovie}/>

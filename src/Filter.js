@@ -22,7 +22,7 @@ function Filter({onSearch}) {
 
     return (
         <>
-            <form onSubmit={handleSubmit}>
+            <form className="filterBar" onSubmit={handleSubmit}>
                 <label>Name</label>
                 <input placeholder="Enter Title here" onChange={(e) => handleTitleChange(e)} value={title}/>
 
